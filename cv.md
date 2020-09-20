@@ -49,4 +49,4 @@ console.log( currentSums(numbers) );
 
 
 ### **English:**
-A1
+A2 Pre-intermediate.
