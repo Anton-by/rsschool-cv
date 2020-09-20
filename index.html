@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>CV</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="cv">
+      <h1>Anton Yakubovich</h1>
+      <hr />
+      <img src="qwer.png" />
+      <br />
+      <br />
+      <h2>Contact Info</h2>
+      <hr />
+      <p>
+        <strong>Phone: +375 (29) 205-50-70</strong><br />
+        <strong>E-mail: <a>yakubovichas@gmail.com</a></strong
+        ><br />
+      </p>
+      <br />
+
+      <h2>Summary</h2>
+      <hr />
+      <p>
+        <strong>Have an analitical mindset</strong><br />
+        <strong>Fast learning</strong><br />
+        <strong>Good communicative skills</strong><br />
+      </p>
+      <br />
+
+      <h2>Skills</h2>
+      <hr />
+      <p>
+        <strong>Programming Languages:</strong>JavaScript<br />
+        <strong>Version Control Systems:</strong>Git<br />
+        <strong>Other:</strong>HTML, CSS<br />
+      </p>
+      <br />
+
+      <h2>Code examples</h2>
+      <hr />
+      <pre>
+    <code>    
+const numbers = [2, 3, 5, 7, 11, 13, 17, 19];
+
+function currentSums(arr) {
+  const res = [];
+  while (arr.length) {
+    res.push(arr.reduce((con,el) => {
+      return con += el;
+    }, 0));
+    arr.pop();
+  }
+  return res.reverse();
+}
+
+console.log( currentSums(numbers) );
+    </code>
+    </pre>
+      <br />
+
+      <h2>Experience</h2>
+      <hr />
+      <p>
+        <strong>Later</strong>
+      </p>
+      <br />
+      <h2>Education</h2>
+      <hr />
+      <p>
+        <strong
+          >Belarusian State University of Informatics and
+          Radioelectronics</strong
+        ><br />
+        <strong
+          >It-Academy: Website development with HTML, CSS, JavaScript
+          course</strong
+        ><br />
+        <strong>Streamline Language School: CEFR Level A2</strong><br />
+      </p>
+      <br />
+
+      <h2>English</h2>
+      <hr />
+      <p>
+        <strong>A2 Pre-intermediate.</strong>
+      </p>
+      <br />
+    </div>
+  </body>
+</html>
